@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   # Custom devise routes for overriding create method
   devise_for :users, controllers: {
     confirmations: 'users/confirmations',
-    omniauth_callbacks: 'users/omniauth_callbacks',
     passwords: 'users/passwords',
     registrations: 'users/registrations',
     sessions: 'users/sessions',
