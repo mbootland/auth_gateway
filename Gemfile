@@ -57,6 +57,7 @@ end
 group :development do
   # Added by author
   gem 'byebug'
+  gem "letter_opener"
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
@@ -73,5 +74,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-  gem "letter_opener", group: :development
 end
